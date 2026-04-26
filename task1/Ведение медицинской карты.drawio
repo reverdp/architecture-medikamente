@@ -1,0 +1,83 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36">
+  <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
+    <mxGraphModel dx="1414" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7s7_bB5WoHh79M1COma0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="290" width="210" x="861" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7s7_bB5WoHh79M1COma0-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Защищенного хранилище с шифрованием&lt;br&gt;Аудит" vertex="1">
+          <mxGeometry height="30" width="190" x="871" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1fdf3b25b50cf41e-27" edge="1" parent="1" source="17472293e6e8944d-30" style="edgeStyle=none;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endFill=1;endSize=8;fontFamily=Verdana;fontSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="219.07894736842104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V4d_a66ARp3X7pJ5ctx-2" connectable="0" parent="1fdf3b25b50cf41e-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Осмотр, диагноз, рекомендации&lt;br&gt;RBAC" vertex="1">
+          <mxGeometry relative="1" x="-0.224" y="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17472293e6e8944d-30" parent="1" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Врач" vertex="1">
+          <mxGeometry height="50" width="120" x="58" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2V4d_a66ARp3X7pJ5ctx-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Ведение медециинской карты&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="287" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AiyHB0XlHwi6_2IUeyCZ-1" parent="1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="1.1" vertex="1">
+          <mxGeometry height="80" width="140" x="428" y="180" as="geometry">
+            <mxRectangle height="30" width="60" x="428" y="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiyHB0XlHwi6_2IUeyCZ-2" parent="AiyHB0XlHwi6_2IUeyCZ-1" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Запрос и редактирование&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;медицинской&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; text-wrap-mode: nowrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;карты&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AiyHB0XlHwi6_2IUeyCZ-6" parent="1" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" value="Данные пациентов&lt;br&gt;Any files" vertex="1">
+          <mxGeometry height="50" width="172" x="880" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="AiyHB0XlHwi6_2IUeyCZ-12" edge="1" parent="1" source="AiyHB0XlHwi6_2IUeyCZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="AiyHB0XlHwi6_2IUeyCZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="220" />
+              <mxPoint x="800" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiyHB0XlHwi6_2IUeyCZ-14" connectable="0" parent="AiyHB0XlHwi6_2IUeyCZ-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Просмотр и сохранение данных" vertex="1">
+          <mxGeometry relative="1" x="0.5254" y="-1" as="geometry">
+            <mxPoint x="-67" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="IT-отдел" vertex="1">
+          <mxGeometry height="50" width="120" x="58" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-3" parent="1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="1.2" vertex="1">
+          <mxGeometry height="80" width="140" x="428" y="305" as="geometry">
+            <mxRectangle height="30" width="60" x="428" y="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-4" parent="-rApku9sWCv0pp8A6L9I-3" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Администрирвоание &lt;br&gt;хранилищем&lt;/span&gt;" vertex="1">
+          <mxGeometry height="54" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-5" edge="1" parent="1" source="-rApku9sWCv0pp8A6L9I-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.036;entryY=0.259;entryDx=0;entryDy=0;entryPerimeter=0;" target="-rApku9sWCv0pp8A6L9I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-6" connectable="0" parent="-rApku9sWCv0pp8A6L9I-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Управление хранилищем&lt;br&gt;RBAC" vertex="1">
+          <mxGeometry relative="1" x="0.0508" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-7" edge="1" parent="1" source="-rApku9sWCv0pp8A6L9I-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="7s7_bB5WoHh79M1COma0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rApku9sWCv0pp8A6L9I-8" connectable="0" parent="-rApku9sWCv0pp8A6L9I-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Управление хранением данных&lt;br&gt;Маскирование, обезличивание" vertex="1">
+          <mxGeometry relative="1" x="-0.2897" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
