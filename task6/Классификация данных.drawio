@@ -1,0 +1,95 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="pxo8hs_VaAlErgLlncJf">
+    <mxGraphModel dx="2828" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="650" width="280" x="1380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-5" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GSvFJbNbIx-tPbNp9Fmv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Источники данных: 1C / CRM / Appointment Service&amp;nbsp;/ Medical Records / Lab Records / Payment Gateway&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-8" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GSvFJbNbIx-tPbNp9Fmv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ETL&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Забор данных по &lt;br&gt;разрешённым контрактам&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="530" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-11" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="GSvFJbNbIx-tPbNp9Fmv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-12" connectable="0" parent="GSvFJbNbIx-tPbNp9Fmv-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запрос и обновленение тегов" vertex="1">
+          <mxGeometry relative="1" x="-0.0182" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-15" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="GSvFJbNbIx-tPbNp9Fmv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-19" connectable="0" parent="GSvFJbNbIx-tPbNp9Fmv-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запрос правил" vertex="1">
+          <mxGeometry relative="1" x="0.1524" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-17" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GSvFJbNbIx-tPbNp9Fmv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Data Classification&lt;br&gt;Проверка по тегам&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="810" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Data catalog&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Теги, владелец, правила обработки&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="810" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Policy Engine&lt;br&gt;Правила распределения по слоям&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="810" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-29" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GSvFJbNbIx-tPbNp9Fmv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-30" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GSvFJbNbIx-tPbNp9Fmv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-32" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GSvFJbNbIx-tPbNp9Fmv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Anonymization&lt;br&gt;Удаление PII, tokenization, псевдо patientId" vertex="1">
+          <mxGeometry height="100" width="205" x="1080" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ML/AI Sandbox&lt;br&gt;только обезличенные данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="205" x="1419" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Privacy-safe&lt;br&gt;BI-витрины&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="205" x="1419" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Raw Restricted&lt;br&gt;Исходные данные с тегами&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="205" x="1419" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Secure Data Lake&lt;br&gt;Обезличенные данные для&lt;br&gt;BI/ML/AI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="185" x="1429" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-41" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GSvFJbNbIx-tPbNp9Fmv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-34" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ML/AI Analyst" vertex="1">
+          <mxGeometry height="120" width="67" x="1840" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-43" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GSvFJbNbIx-tPbNp9Fmv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-35" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Security Engineer" vertex="1">
+          <mxGeometry height="120" width="67" x="1840" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-46" edge="1" parent="1" source="GSvFJbNbIx-tPbNp9Fmv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GSvFJbNbIx-tPbNp9Fmv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GSvFJbNbIx-tPbNp9Fmv-44" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="BI/ML Analyst" vertex="1">
+          <mxGeometry height="120" width="67" x="1840" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
