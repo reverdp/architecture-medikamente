@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="ishikawa-migration" name="Task4 Ishikawa">
+    <mxGraphModel dx="1414" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Диаграмма Исикавы: узкие места при миграции" vertex="1">
+          <mxGeometry height="40" width="580" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="effect" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="Риск снижения производительности, доступности и безопасности при миграции" vertex="1">
+          <mxGeometry height="90" width="300" x="1230" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="spine" edge="1" parent="1" source="start" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#333333;" target="effect" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="545" as="sourcePoint" />
+            <mxPoint x="1230" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;html=1;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="120" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="infra" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" value="Инфраструктура" vertex="1">
+          <mxGeometry height="50" width="190" x="210" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="data" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" value="Данные" vertex="1">
+          <mxGeometry height="50" width="190" x="500" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="integration" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" value="Интеграции" vertex="1">
+          <mxGeometry height="50" width="190" x="800" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="infraBone" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#333333;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="220" as="sourcePoint" />
+            <mxPoint x="470" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dataBone" edge="1" parent="1" source="data" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#333333;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="sourcePoint" />
+            <mxPoint x="700" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integrationBone" edge="1" parent="1" source="integration" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#333333;endFill=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="220" as="sourcePoint" />
+            <mxPoint x="930" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="software" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" value="ПО и архитектура" vertex="1">
+          <mxGeometry height="50" width="190" x="210" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="security" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" value="Безопасность" vertex="1">
+          <mxGeometry height="50" width="190" x="500" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="people" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1;" value="Персонал и процессы" vertex="1">
+          <mxGeometry height="50" width="210" x="800" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="softwareBone" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#333333;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="870" as="sourcePoint" />
+            <mxPoint x="470" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="securityBone" edge="1" parent="1" source="security" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#333333;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="870" as="sourcePoint" />
+            <mxPoint x="700" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="peopleBone" edge="1" parent="1" source="people" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#333333;endFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="870" as="sourcePoint" />
+            <mxPoint x="930" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infraText" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=8;" value="• Один локальный сервер в офисе&lt;br&gt;• Нет отказоустойчивости&lt;br&gt;• Файловый сервер как единая точка отказа&lt;br&gt;• Сеть офиса не готова к филиалам" vertex="1">
+          <mxGeometry height="120" width="250" x="160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dataText" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=8;" value="• Excel/PDF/JPG без единой модели&lt;br&gt;• Сложная миграция исторических файлов&lt;br&gt;• Возможные блокировки и рассинхронизация файлов как источников данных&lt;br&gt;• Ошибки и дубли при миграции" vertex="1">
+          <mxGeometry height="120" width="250" x="470" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="integrationText" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#D6B656;fontSize=12;align=left;spacingLeft=8;" value="• Лаборатория как внешний SLA-риск&lt;br&gt;• ККМ/1С через TCP/IP/OLE&lt;br&gt;• Нет API Gateway и контрактов&lt;br&gt;• Проблемы синхронизации между системами" vertex="1">
+          <mxGeometry height="120" width="260" x="780" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="softwareText" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#D6B656;fontSize=12;align=left;spacingLeft=8;" value="• Синхронные цепочки вызовов&lt;br&gt;• Нет observability&lt;br&gt;• Нет idempotency и retry policy" vertex="1">
+          <mxGeometry height="120" width="250" x="160" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="securityText" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#D6B656;fontSize=12;align=left;spacingLeft=8;" value="• Шифрование добавит latency&lt;br&gt;• DLP/аудит могут тормозить операции&lt;br&gt;• Ошибки RBAC блокируют бизнес" vertex="1">
+          <mxGeometry height="120" width="250" x="470" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="peopleText" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#D6B656;fontSize=12;align=left;spacingLeft=8;" value="• Ручные процессы и сложность перехода от Excel к чему либо другому&lt;br&gt;• Нет полноценного DevOps/SecOps/DataOps&lt;br&gt;• Нет регламентов миграции&lt;br&gt;• Сопротивление изменениям" vertex="1">
+          <mxGeometry height="120" width="270" x="775" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
